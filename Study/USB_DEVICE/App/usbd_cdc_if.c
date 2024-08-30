@@ -267,9 +267,10 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
   //memcpy(UserRxBufferFS, Buf, *Len);
-
+#ifdef COM_PORT_USB
   wr = 1;
   byteNum++;
+#endif
   return (USBD_OK);
   /* USER CODE END 6 */
 }

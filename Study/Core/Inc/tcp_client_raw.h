@@ -175,11 +175,11 @@ static void input_config_data(struct entry_struct *newEntry, char *msg, int msgS
 
 	HAL_Delay(del*1000);
 
-//#ifdef COM_PORT_USB
+#ifdef COM_PORT_USB
 	CDC_Transmit_FS((uint8_t *)msg, (uint16_t)msgSize);
-//#else
-//	HAL_UART_Transmit_DMA(&huart3, (uint8_t *)msg, (uint16_t)msgSize);
-//#endif
+#else
+	HAL_UART_Transmit_DMA(&huart3, (uint8_t *)msg, (uint16_t)msgSize);
+#endif
 
 	while (byteNum < byteN + 1)
 	{
@@ -190,17 +190,17 @@ static void input_config_data(struct entry_struct *newEntry, char *msg, int msgS
 	{
 		while (Num < NumStr)
 		{
-//#ifdef COM_PORT_USB
+#ifdef COM_PORT_USB
 			while ((char)UserRxBufferFS[strCntRX] != '.' & (char)UserRxBufferFS[strCntRX] != '\0' )
-//#else
-//				while ((char)RX_buff[strCntRX] != '.' & (char)RX_buff[strCntRX] != '\0' )
-//#endif
+#else
+				while ((char)RX_buff[strCntRX] != '.' & (char)RX_buff[strCntRX] != '\0' )
+#endif
 			{
-//#ifdef COM_PORT_USB
+#ifdef COM_PORT_USB
 				ipBuffchr[strCntBuff] = (char)UserRxBufferFS[strCntRX];
-//#else
-//				ipBuffchr[strCntBuff] = (char)RX_buff[strCntRX];
-//#endif
+#else
+				ipBuffchr[strCntBuff] = (char)RX_buff[strCntRX];
+#endif
 
 				strCntRX++;
 				strCntBuff++;
@@ -227,17 +227,17 @@ static void input_config_data(struct entry_struct *newEntry, char *msg, int msgS
 		}
 
 		wr = 0;
-//#ifdef COM_PORT_USB
+#ifdef COM_PORT_USB
 		UserRxBufferFS[strCntRX-1] = '\n';
 		UserRxBufferFS[strCntRX] = '\r';
 		CDC_Transmit_FS((uint8_t *)UserRxBufferFS, (uint16_t) (strCntRX+2));
 		memset(UserRxBufferFS, '\0', sizeof(UserRxBufferFS));
-//#else
-//		RX_buff[strCntRX-1] = '\n';
-//		RX_buff[strCntRX] = '\r';
-//		HAL_UART_Transmit_DMA(&huart3, (uint8_t *)RX_buff, (uint16_t) (strCntRX+2));
-//		memset(RX_buff, '\0', sizeof(RX_buff));
-//#endif
+#else
+		RX_buff[strCntRX-1] = '\n';
+		RX_buff[strCntRX] = '\r';
+		HAL_UART_Transmit_DMA(&huart3, (uint8_t *)RX_buff, (uint16_t) (strCntRX+2));
+		memset(RX_buff, '\0', sizeof(RX_buff));
+#endif
 
 		memset(pStore, '\0', NumStr);
 		memset(ipBuffchr, '\0', NumColum);

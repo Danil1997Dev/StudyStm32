@@ -1,10 +1,77 @@
-21:58:10 **** Incremental Build of configuration Debug for project Study ****
+22:15:45 **** Incremental Build of configuration Debug for project Study ****
 make -j8 all 
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/BSP/Components/dp83848 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_cdc_if.d" -MT"USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../Core/Src/tcp_client_raw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/BSP/Components/dp83848 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tcp_client_raw.d" -MT"Core/Src/tcp_client_raw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tcp_client_raw.o"
+In file included from ../Core/Src/tcp_client_raw.c:9:
+../Core/Inc/tcp_client_raw.h: In function 'tcp_client_handler':
+../Core/Inc/tcp_client_raw.h:128:18: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness [-Wpointer-sign]
+  128 |         strncpy (tcpRX, es->p->payload, es->p->len);
+      |                  ^~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/tcp_client_raw.h:19,
+                 from ../Core/Src/tcp_client_raw.c:9:
+E:\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:44:19: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   44 | char    *strncpy (char *__restrict, const char *__restrict, size_t);
+      |                   ^
+In file included from ../Core/Src/tcp_client_raw.c:9:
+../Core/Inc/tcp_client_raw.h:130:40: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  130 |         HAL_UART_Transmit_DMA(&huart3, bufRX, es->p->len);
+      |                                        ^~~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:420,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../LWIP/Target/lwipopts.h:25,
+                 from ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:51,
+                 from ../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h:41,
+                 from ../Core/Inc/tcp_client_raw.h:18,
+                 from ../Core/Src/tcp_client_raw.c:9:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:749:83: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                    ~~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/tcp_client_raw.c:9:
+../Core/Inc/tcp_client_raw.h: In function 'input_config_data':
+../Core/Inc/tcp_client_raw.h:179:9: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+  179 |         CDC_Transmit_FS((uint8_t *)msg, (uint16_t)msgSize);
+      |         ^~~~~~~~~~~~~~~
+../Core/Inc/tcp_client_raw.h:194:63: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  194 |                         while ((char)UserRxBufferFS[strCntRX] != '.' & (char)UserRxBufferFS[strCntRX] != '\0' )
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Inc/tcp_client_raw.h:215:56: warning: array subscript has type 'char' [-Wchar-subscripts]
+  215 |                                 ipBuffint |= (ipBuffchr[n] << 8*n);
+      |                                                        ^
+../Core/Src/tcp_client_raw.c: In function 'tcp_client_init':
+../Core/Src/tcp_client_raw.c:37:15: warning: variable 'ret_err' set but not used [-Wunused-but-set-variable]
+   37 |         err_t ret_err;
+      |               ^~~~~~~
+../Core/Src/tcp_client_raw.c: In function 'tcp_client_sent':
+../Core/Src/tcp_client_raw.c:131:34: warning: passing argument 2 of 'tcp_sent' from incompatible pointer type [-Wincompatible-pointer-types]
+  131 |                 tcp_sent(newpcb, tcp_client_send);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  void (*)(struct tcp_pcb *, struct tcp_client_struct *)
+In file included from ../Core/Inc/tcp_client_raw.h:18,
+                 from ../Core/Src/tcp_client_raw.c:9:
+../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h:417:64: note: expected 'tcp_sent_fn' {aka 'signed char (*)(void *, struct tcp_pcb *, short unsigned int)'} but argument is of type 'void (*)(struct tcp_pcb *, struct tcp_client_struct *)'
+  417 | void             tcp_sent    (struct tcp_pcb *pcb, tcp_sent_fn sent);
+      |                                                    ~~~~~~~~~~~~^~~~
+At top level:
+../Core/Src/tcp_client_raw.c:120:14: warning: 'tcp_client_sent' defined but not used [-Wunused-function]
+  120 | static err_t tcp_client_sent(void *arg, struct tcp_pcb *newpcb, u16_t len)
+      |              ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Study.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32CubeIDE\Study\Study\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Study.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Study.elf
+ 
 arm-none-eabi-size  Study.elf 
+arm-none-eabi-objdump -h -S Study.elf  > "Study.list"
    text	   data	    bss	    dec	    hex	filename
  114140	    612	  43820	 158572	  26b6c	Study.elf
 Finished building: default.size.stdout
  
+Finished building: Study.list
+ 
 
-21:58:11 Build Finished. 0 errors, 0 warnings. (took 1s.31ms)
+22:15:47 Build Finished. 0 errors, 8 warnings. (took 2s.560ms)
 
