@@ -1,0 +1,131 @@
+2024-08-24 13:47:02,248 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-08-24 13:47:02,250 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-08-24 13:47:02,250 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-08-24 13:49:33,548 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 528136512 Bytes (633339904)
+2024-08-24 13:49:34,590 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 294650896 Bytes (633339904)
+2024-08-24 13:49:35,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-08-24 13:49:35,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-24 13:49:35,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-24 13:49:35,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LWIP
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ETH
+2024-08-24 13:49:35,040 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FATFS
+2024-08-24 13:49:35,042 [INFO] CodeGenerator:807 - code generatio: config db path: E:\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-08-24 13:49:35,058 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-08-24 13:49:35,062 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-08-24 13:49:35,455 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp_save
+2024-08-24 13:49:35,815 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp
+2024-08-24 13:49:35,917 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp_save
+2024-08-24 13:49:36,057 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp
+2024-08-24 13:49:36,150 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-08-24 13:49:36,239 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-08-24 13:49:36,245 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-08-24 13:49:36,324 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-08-24 13:49:36,331 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-08-24 13:49:36,449 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-08-24 13:49:36,456 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-08-24 13:49:36,559 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-08-24 13:49:36,567 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-08-24 13:49:36,644 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-08-24 13:49:36,648 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-08-24 13:49:36,719 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-08-24 13:49:36,724 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-08-24 13:49:36,803 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-08-24 13:49:36,807 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-08-24 13:49:36,893 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-08-24 13:49:36,962 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-08-24 13:49:36,971 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-08-24 13:49:37,042 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-08-24 13:49:37,045 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-08-24 13:49:37,100 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-08-24 13:49:37,102 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-08-24 13:49:37,165 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-08-24 13:49:37,168 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-08-24 13:49:37,251 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-08-24 13:49:37,469 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:37,477 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-08-24 13:49:37,540 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_HalInit.tmp
+2024-08-24 13:49:37,546 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_vars.tmp_save
+2024-08-24 13:49:37,610 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_vars.tmp
+2024-08-24 13:49:37,616 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-08-24 13:49:37,667 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_ext_vars.tmp
+2024-08-24 13:49:37,673 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_inc.tmp_save
+2024-08-24 13:49:37,730 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_inc.tmp
+2024-08-24 13:49:37,749 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:37,779 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:37,816 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp_save
+2024-08-24 13:49:37,891 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp
+2024-08-24 13:49:37,895 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp_save
+2024-08-24 13:49:37,949 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp
+2024-08-24 13:49:37,953 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:37,959 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-08-24 13:49:38,014 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_HalInit.tmp
+2024-08-24 13:49:38,018 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_vars.tmp_save
+2024-08-24 13:49:38,076 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_vars.tmp
+2024-08-24 13:49:38,080 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-08-24 13:49:38,140 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_ext_vars.tmp
+2024-08-24 13:49:38,143 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_inc.tmp_save
+2024-08-24 13:49:38,194 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\fatfs_inc.tmp
+2024-08-24 13:49:38,200 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\FATFS\Target\ffconf.h_save
+2024-08-24 13:49:38,272 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\FATFS\Target\ffconf.h
+2024-08-24 13:49:38,278 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\FATFS\Target\user_diskio.c_save
+2024-08-24 13:49:38,337 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\FATFS\Target\user_diskio.c
+2024-08-24 13:49:38,343 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\FATFS\Target\user_diskio.h_save
+2024-08-24 13:49:38,398 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\FATFS\Target\user_diskio.h
+2024-08-24 13:49:38,404 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\FATFS\App\fatfs.c_save
+2024-08-24 13:49:38,465 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\FATFS\App\fatfs.c
+2024-08-24 13:49:38,470 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\FATFS\App\fatfs.h_save
+2024-08-24 13:49:38,523 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\FATFS\App\fatfs.h
+2024-08-24 13:49:38,532 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:38,552 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c_save
+2024-08-24 13:49:38,660 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c
+2024-08-24 13:49:38,667 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h_save
+2024-08-24 13:49:38,728 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h
+2024-08-24 13:49:38,735 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h_save
+2024-08-24 13:49:38,970 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h
+2024-08-24 13:49:38,977 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c_save
+2024-08-24 13:49:39,081 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c
+2024-08-24 13:49:39,088 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h_save
+2024-08-24 13:49:39,208 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h
+2024-08-24 13:49:39,227 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-08-24 13:49:39,242 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c_save
+2024-08-24 13:49:39,390 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c
+2024-08-24 13:49:39,401 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h_save
+2024-08-24 13:49:39,494 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h
+2024-08-24 13:49:39,501 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h_save
+2024-08-24 13:49:39,577 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h
+2024-08-24 13:49:39,585 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c_save
+2024-08-24 13:49:39,694 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c
+2024-08-24 13:49:39,701 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h_save
+2024-08-24 13:49:39,772 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h
+2024-08-24 13:49:39,778 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c_save
+2024-08-24 13:49:39,862 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c
+2024-08-24 13:49:39,869 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_storage_if.h_save
+2024-08-24 13:49:39,950 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_storage_if.h
+2024-08-24 13:49:39,955 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_storage_if.c_save
+2024-08-24 13:49:40,010 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_storage_if.c
+2024-08-24 13:49:40,025 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c_save
+2024-08-24 13:49:40,118 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c
+2024-08-24 13:49:40,125 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h_save
+2024-08-24 13:49:40,196 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h
+2024-08-24 13:49:40,217 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c_save
+2024-08-24 13:49:40,319 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c
+2024-08-24 13:49:40,325 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp_save
+2024-08-24 13:49:40,378 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp
+2024-08-24 13:49:40,388 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-08-24 13:49:40,472 [INFO] CodeEngine:335 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h
+2024-08-24 13:49:40,507 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\main.h_save
+2024-08-24 13:49:40,574 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\main.h
+2024-08-24 13:49:40,582 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\main.c_save
+2024-08-24 13:49:40,704 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\main.c
+2024-08-24 13:49:41,763 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 610mS.
+2024-08-24 13:49:41,781 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-08-24 13:49:42,147 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-08-24 13:49:42,161 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-08-24 13:49:42,165 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-08-24 13:49:42,176 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-08-24 13:49:42,184 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

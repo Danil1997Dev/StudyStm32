@@ -1,0 +1,341 @@
+/*
+ * tcp_client_raw.c
+ *
+ *  Created on: Jul 27, 2024
+ *      Author: Danil
+ */
+
+
+#include "tcp_client_raw.h"
+
+
+struct tcp_pcb *cppcb;
+
+extern uint8_t USB_BufferFS[APP_TX_DATA_SIZE];
+
+ip4_addr_t remote_ipaddr;
+ip4_addr_t remote_netmask;
+ip4_addr_t remote_gw;
+
+uint8_t REMOTE_IP_ADDRESS[4];
+uint8_t REMOTE_NETMASK_ADDRESS[4];
+uint8_t REMOTE_GATEWAY_ADDRESS[4];
+
+
+
+static err_t tcp_client_connect(void *arg, struct tcp_pcb *newpcb, err_t err);
+static err_t tcp_client_accept(void *arg, struct tcp_pcb *newpcb, err_t err);
+static err_t tcp_client_sent(void *arg, struct tcp_pcb *newpcb, u16_t len);
+static err_t tcp_client_recive(void *arg, struct tcp_pcb *newpcb, struct pbuf *p, err_t err);
+static err_t tcp_client_poll(void *arg, struct tcp_pcb *newpcb);
+static void tcp_client_err(void *arg, err_t err);
+
+
+
+void tcp_client_init(void)
+{
+	err_t ret_err;
+
+	REMOTE_IP_ADDRESS[0] = 192;
+	REMOTE_IP_ADDRESS[1] = 168;
+	REMOTE_IP_ADDRESS[2] = 0;
+	REMOTE_IP_ADDRESS[3] = 11;
+	REMOTE_NETMASK_ADDRESS[0] = 255;
+	REMOTE_NETMASK_ADDRESS[1] = 255;
+	REMOTE_NETMASK_ADDRESS[2] = 255;
+	REMOTE_NETMASK_ADDRESS[3] = 0;
+	REMOTE_GATEWAY_ADDRESS[0] = 192;
+	REMOTE_GATEWAY_ADDRESS[1] = 168;
+	REMOTE_GATEWAY_ADDRESS[2] = 0;
+	REMOTE_GATEWAY_ADDRESS[3] = 1;
+
+	IP4_ADDR(&remote_ipaddr, REMOTE_IP_ADDRESS[0], REMOTE_IP_ADDRESS[1], REMOTE_IP_ADDRESS[2], REMOTE_IP_ADDRESS[3]);
+	IP4_ADDR(&remote_netmask, REMOTE_NETMASK_ADDRESS[0], REMOTE_NETMASK_ADDRESS[1] , REMOTE_NETMASK_ADDRESS[2], REMOTE_NETMASK_ADDRESS[3]);
+	IP4_ADDR(&remote_gw, REMOTE_GATEWAY_ADDRESS[0], REMOTE_GATEWAY_ADDRESS[1], REMOTE_GATEWAY_ADDRESS[2], REMOTE_GATEWAY_ADDRESS[3]);
+
+	cppcb = tcp_new();
+
+	if (cppcb != NULL)
+	{
+		ret_err = tcp_connect(cppcb, &remote_ipaddr, 23, tcp_client_connect);
+
+		//ret_err = ERR_OK;
+
+	}
+	else
+	{
+		memp_free(MEMP_TCP_PCB, cppcb);
+
+	}
+}
+
+static err_t tcp_client_connect(void *arg, struct tcp_pcb *newpcb, err_t err)
+{
+	err_t ret_err;
+
+	struct tcp_client_struct *es;
+
+	es = (struct tcp_client_struct *)memp_malloc(sizeof(struct tcp_client_struct *));
+
+//	es = (struct tcp_client_struct *)arg;
+
+	if (es != NULL)
+	{
+
+		es->p = NULL;
+		es->pcb = newpcb;
+		es->state = ES_C_CONNECT;
+
+		//*pwr = 1;
+
+		tcp_arg(newpcb, es);
+
+		tcp_recv(newpcb, tcp_client_recive);
+
+		tcp_err(newpcb, tcp_client_err);
+
+//		tcp_poll(newpcb, tcp_client_poll, 0);
+
+		esBuff = es;
+
+		ret_err = ERR_OK;
+
+	}
+	else
+	{
+
+		tcp_client_connectin_close(newpcb, es);
+
+		ret_err = ERR_MEM;
+	}
+
+	return ret_err;
+
+}
+
+
+static err_t tcp_client_sent(void *arg, struct tcp_pcb *newpcb, u16_t len)
+{
+
+	err_t ret_err;
+	struct tcp_client_struct *es;
+
+	es = (struct tcp_client_struct *)arg;
+
+	if (es->p != NULL)
+	{
+
+		tcp_sent(newpcb, tcp_client_send);
+
+		tcp_client_send(newpcb, es);
+
+		ret_err = ERR_OK;
+
+	}
+	else
+	{
+		if (es->state == ES_C_CLOSE)
+		{
+			tcp_client_connectin_close(newpcb, es);
+
+			ret_err = ERR_OK;
+
+		}
+
+	}
+
+	return ret_err;
+
+}
+
+static err_t tcp_client_recive(void *arg, struct tcp_pcb *newpcb, struct pbuf *p, err_t err)
+{
+	err_t ret_err;
+	struct tcp_client_struct *es;
+
+	es = (struct tcp_client_struct *)arg;
+
+	if (es != NULL)
+	{
+		while (es != NULL)
+		{
+			switch (es->state)
+			{
+				case ES_C_NONE:
+
+					//break;
+
+				case ES_C_CONNECT:
+					if (p != NULL)
+					{
+						if (p->payload != NULL)
+						{
+							esBuff = es;
+
+							es->p = p;
+
+							*pwr = 0;
+
+							tcp_recved(newpcb, p->tot_len);
+
+							tcp_client_handler(newpcb, es);
+
+							p = NULL;
+
+							es->state = ES_C_RECIVE;
+
+							ret_err = ERR_OK;
+
+							esBuff = es;
+
+							break;
+
+						}
+						else
+						{
+							es->state = ES_C_TRANSMIT;
+
+							break;
+
+						}
+
+
+					}
+					else if (err != ERR_OK)
+					{
+						es->p = NULL;
+
+						pbuf_free(p);
+
+						ret_err = err;
+
+						break;
+
+					}
+					else
+					{
+						es->state = ES_C_CLOSE;
+
+						tcp_sent(newpcb, tcp_client_sent);
+
+						tcp_client_connectin_close(newpcb, es);
+
+						ret_err = ERR_OK;
+
+						break;
+					}
+
+
+					//break;
+
+				case ES_C_RECIVE:
+					if (es->p == NULL)
+					{
+						esBuff = es;
+
+						es->p = p;
+
+						tcp_client_handler(newpcb, es);
+
+						pbuf_free(p);
+
+					}
+					else
+					{
+						esBuff = es;
+
+						struct pbuf *buff;
+
+						buff = es->p;
+
+						//pbuf_chain(buff,p);
+
+						pbuf_free(p);
+
+					}
+
+					es->state = ES_C_CONNECT;
+
+					esBuff = es;
+
+					break;
+
+
+					//break;
+
+				case ES_C_TRANSMIT:
+
+					tcp_client_handler(newpcb, es);
+
+					es->state = ES_C_CONNECT;
+
+					esBuff = es;
+
+					ret_err = ERR_OK;
+
+					break;
+	//
+	//				break;
+	//
+				case ES_C_CLOSE:
+
+					mem_free(es);
+
+					es = NULL;
+
+					break;
+
+			}
+		}
+	}
+	else
+	{
+		ret_err = ERR_MEM;
+
+		mem_free(es);
+
+	}
+
+
+
+	return ret_err;
+
+}
+
+
+
+static err_t tcp_client_poll(void *arg, struct tcp_pcb *newpcb)
+{
+	struct tcp_client_struct *es;
+
+	es = (struct tcp_client_struct *) arg;
+
+	if (es != NULL)
+	{
+		if (es->p != NULL)
+		{
+			tcp_sent(newpcb, tcp_client_sent);
+
+			tcp_client_send(newpcb, es);
+
+		}
+		else
+		{
+			tcp_client_connectin_close(newpcb, es);
+
+			mem_free(es);
+
+		}
+
+	}
+
+}
+static void tcp_client_err(void *arg, err_t err)
+{
+	struct tcp_client_struct *es;
+
+	es = (struct tcp_client_struct *) arg;
+
+	mem_free(es);
+
+}

@@ -1,0 +1,508 @@
+2024-07-08 22:29:33,368 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,457 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,499 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,502 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,540 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,542 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,585 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:33,588 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,224 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,234 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,282 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,285 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,325 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,328 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,371 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:34,374 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:35,983 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:35,985 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,024 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,027 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,066 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,069 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,111 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:36,114 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,145 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,147 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,186 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,189 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,226 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,229 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,268 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:41,271 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,205 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,208 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,247 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,250 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,290 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,293 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,334 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:46,337 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,563 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,566 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,605 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,608 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,649 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,651 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,694 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:47,697 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,336 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,338 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,378 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,380 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,418 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,421 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,461 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:48,464 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,164 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,167 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,209 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,212 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,253 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,255 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,297 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:49,300 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,353 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,355 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,400 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,403 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,455 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,458 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,512 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:53,516 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,215 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,218 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,263 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,268 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,319 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,322 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,363 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:57,366 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,744 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,746 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,787 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,790 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,832 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,834 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,888 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:58,891 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,345 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,348 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,390 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,393 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,444 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,447 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,486 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:29:59,489 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,222 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,225 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,263 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,266 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,304 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,306 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,346 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:00,348 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:30:06,337 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:42:43,612 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:43,617 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:45,193 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:45,202 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:45,743 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:45,747 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,170 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,173 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,205 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,208 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,285 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:55,289 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:58,997 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 353152312 Bytes (825229312)
+2024-07-08 22:42:59,187 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 429172024 Bytes (825229312)
+2024-07-08 22:42:59,428 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LWIP
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-08 22:42:59,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ETH
+2024-07-08 22:42:59,430 [INFO] CodeGenerator:807 - code generatio: config db path: E:\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-07-08 22:42:59,437 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:59,442 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-07-08 22:42:59,503 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream1
+2024-07-08 22:42:59,503 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream1
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : Initvalue: null
+2024-07-08 22:42:59,503 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:42:59,503 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-07-08 22:42:59,503 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:42:59,503 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:42:59,503 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : Statevalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : Statevalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-07-08 22:42:59,504 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-07-08 22:42:59,521 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream3
+2024-07-08 22:42:59,521 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream3
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : Initvalue: null
+2024-07-08 22:42:59,521 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:42:59,521 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-07-08 22:42:59,521 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-07-08 22:42:59,521 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:42:59,521 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : Statevalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : Statevalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:42:59,522 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:42:59,523 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-07-08 22:42:59,523 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-07-08 22:42:59,524 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:59,524 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:59,524 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:42:59,699 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp_save
+2024-07-08 22:42:59,808 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp
+2024-07-08 22:42:59,825 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp_save
+2024-07-08 22:42:59,884 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp
+2024-07-08 22:42:59,927 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-07-08 22:42:59,985 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-07-08 22:42:59,988 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-07-08 22:43:00,039 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-07-08 22:43:00,043 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-07-08 22:43:00,113 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-07-08 22:43:00,116 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-07-08 22:43:00,188 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-07-08 22:43:00,194 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-07-08 22:43:00,245 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-07-08 22:43:00,248 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-07-08 22:43:00,296 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-07-08 22:43:00,300 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-07-08 22:43:00,359 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-07-08 22:43:00,362 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-07-08 22:43:00,425 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-07-08 22:43:00,451 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-07-08 22:43:00,456 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-07-08 22:43:00,507 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-07-08 22:43:00,509 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-07-08 22:43:00,559 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-07-08 22:43:00,561 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-07-08 22:43:00,620 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-07-08 22:43:00,623 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-07-08 22:43:00,766 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-07-08 22:43:00,883 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:43:00,897 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:43:00,923 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp_save
+2024-07-08 22:43:00,973 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp
+2024-07-08 22:43:00,976 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp_save
+2024-07-08 22:43:01,026 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp
+2024-07-08 22:43:01,035 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:43:01,048 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c_save
+2024-07-08 22:43:01,124 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c
+2024-07-08 22:43:01,130 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h_save
+2024-07-08 22:43:01,193 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h
+2024-07-08 22:43:01,198 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h_save
+2024-07-08 22:43:01,352 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h
+2024-07-08 22:43:01,357 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c_save
+2024-07-08 22:43:01,425 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c
+2024-07-08 22:43:01,429 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h_save
+2024-07-08 22:43:01,481 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h
+2024-07-08 22:43:01,489 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:43:01,496 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c_save
+2024-07-08 22:43:01,556 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c
+2024-07-08 22:43:01,560 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h_save
+2024-07-08 22:43:01,612 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h
+2024-07-08 22:43:01,616 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h_save
+2024-07-08 22:43:01,670 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h
+2024-07-08 22:43:01,674 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c_save
+2024-07-08 22:43:01,735 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c
+2024-07-08 22:43:01,740 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h_save
+2024-07-08 22:43:01,793 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h
+2024-07-08 22:43:01,798 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c_save
+2024-07-08 22:43:01,885 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c
+2024-07-08 22:43:01,890 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.h_save
+2024-07-08 22:43:01,948 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.h
+2024-07-08 22:43:01,953 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.c_save
+2024-07-08 22:43:02,039 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.c
+2024-07-08 22:43:02,053 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c_save
+2024-07-08 22:43:02,204 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c
+2024-07-08 22:43:02,208 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h_save
+2024-07-08 22:43:02,261 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h
+2024-07-08 22:43:02,272 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c_save
+2024-07-08 22:43:02,347 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c
+2024-07-08 22:43:02,350 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp_save
+2024-07-08 22:43:02,400 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp
+2024-07-08 22:43:02,407 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-07-08 22:43:02,466 [INFO] CodeEngine:335 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h
+2024-07-08 22:43:02,490 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\main.h_save
+2024-07-08 22:43:02,555 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\main.h
+2024-07-08 22:43:02,559 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\main.c_save
+2024-07-08 22:43:02,639 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\main.c
+2024-07-08 22:43:03,506 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 375mS.
+2024-07-08 22:43:03,513 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-07-08 22:43:03,701 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-07-08 22:43:05,564 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2051mS.
+2024-07-08 22:43:05,564 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-08 22:43:05,580 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-08 22:46:00,456 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,562x241,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:46:01,596 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:46:02,189 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:46:02,768 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:46:02,850 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-08 22:46:07,032 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 321892040 Bytes (984612864)
+2024-07-08 22:46:07,223 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 345893568 Bytes (984612864)
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LWIP
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-08 22:46:07,443 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-07-08 22:46:07,444 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-08 22:46:07,444 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ETH
+2024-07-08 22:46:07,445 [INFO] CodeGenerator:807 - code generatio: config db path: E:\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-07-08 22:46:07,450 [WARN] IP:2119 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
+2024-07-08 22:46:07,455 [WARN] IP:2119 - LWIP_NETIF_HOSTNAME not found: check if there is a RefParameter without a condition.
+2024-07-08 22:46:07,499 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-07-08 22:46:07,499 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:46:07,499 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream1
+2024-07-08 22:46:07,499 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream1
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Initvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Statevalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Statevalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:46:07,500 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-07-08 22:46:07,501 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream3
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream3
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Initvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:327 - 	 sub Args: 
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-07-08 22:46:07,502 [INFO] Argument:325 - Argument : Statevalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : Statevalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-07-08 22:46:07,503 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-07-08 22:46:07,504 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:46:07,504 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:46:07,504 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-07-08 22:46:07,688 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp_save
+2024-07-08 22:46:07,743 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\license.tmp
+2024-07-08 22:46:07,761 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp_save
+2024-07-08 22:46:07,817 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\gpio.tmp
+2024-07-08 22:46:07,852 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-07-08 22:46:07,901 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-07-08 22:46:07,903 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-07-08 22:46:07,952 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-07-08 22:46:07,954 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-07-08 22:46:08,011 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-07-08 22:46:08,014 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-07-08 22:46:08,080 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-07-08 22:46:08,086 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp_save
+2024-07-08 22:46:08,136 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_vars.tmp
+2024-07-08 22:46:08,139 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp_save
+2024-07-08 22:46:08,194 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_inc.tmp
+2024-07-08 22:46:08,197 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp_save
+2024-07-08 22:46:08,259 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_HalInit.tmp
+2024-07-08 22:46:08,262 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp_save
+2024-07-08 22:46:08,325 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\eth_Msp.tmp
+2024-07-08 22:46:08,348 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-07-08 22:46:08,354 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-07-08 22:46:08,405 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-07-08 22:46:08,408 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-07-08 22:46:08,458 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-07-08 22:46:08,460 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-07-08 22:46:08,519 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-07-08 22:46:08,522 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-07-08 22:46:08,586 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-07-08 22:46:08,697 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:46:08,710 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:46:08,735 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp_save
+2024-07-08 22:46:08,850 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma.tmp
+2024-07-08 22:46:08,853 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp_save
+2024-07-08 22:46:08,901 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\dma_GV.tmp
+2024-07-08 22:46:08,909 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:46:08,923 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c_save
+2024-07-08 22:46:09,009 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.c
+2024-07-08 22:46:09,012 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h_save
+2024-07-08 22:46:09,065 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\App\lwip.h
+2024-07-08 22:46:09,068 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h_save
+2024-07-08 22:46:09,214 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\lwipopts.h
+2024-07-08 22:46:09,217 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c_save
+2024-07-08 22:46:09,294 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.c
+2024-07-08 22:46:09,298 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h_save
+2024-07-08 22:46:09,351 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\LWIP\Target\ethernetif.h
+2024-07-08 22:46:09,358 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-07-08 22:46:09,365 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c_save
+2024-07-08 22:46:09,423 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.c
+2024-07-08 22:46:09,427 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h_save
+2024-07-08 22:46:09,478 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usb_device.h
+2024-07-08 22:46:09,481 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h_save
+2024-07-08 22:46:09,536 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.h
+2024-07-08 22:46:09,540 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c_save
+2024-07-08 22:46:09,604 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\Target\usbd_conf.c
+2024-07-08 22:46:09,608 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h_save
+2024-07-08 22:46:09,663 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.h
+2024-07-08 22:46:09,667 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c_save
+2024-07-08 22:46:09,727 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_desc.c
+2024-07-08 22:46:09,731 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.h_save
+2024-07-08 22:46:09,786 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.h
+2024-07-08 22:46:09,790 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.c_save
+2024-07-08 22:46:09,855 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\USB_DEVICE\App\usbd_cdc_if.c
+2024-07-08 22:46:09,867 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c_save
+2024-07-08 22:46:09,938 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_it.c
+2024-07-08 22:46:09,942 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h_save
+2024-07-08 22:46:09,995 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_it.h
+2024-07-08 22:46:10,006 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c_save
+2024-07-08 22:46:10,077 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\stm32f4xx_hal_msp.c
+2024-07-08 22:46:10,079 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp_save
+2024-07-08 22:46:10,129 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\MXTmpFiles\system.tmp
+2024-07-08 22:46:10,135 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-07-08 22:46:10,194 [INFO] CodeEngine:335 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\stm32f4xx_hal_conf.h
+2024-07-08 22:46:10,215 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Inc\main.h_save
+2024-07-08 22:46:10,270 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Inc\main.h
+2024-07-08 22:46:10,273 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32CubeIDE\Study\Study\Core\Src\main.c_save
+2024-07-08 22:46:10,353 [INFO] CodeEngine:279 - Generated code: D:\STM32CubeIDE\Study\Study\Core\Src\main.c
+2024-07-08 22:46:11,170 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 357mS.
+2024-07-08 22:46:11,178 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-07-08 22:46:11,365 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-07-08 22:46:13,306 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2128mS.
+2024-07-08 22:46:13,306 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-08 22:46:13,316 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

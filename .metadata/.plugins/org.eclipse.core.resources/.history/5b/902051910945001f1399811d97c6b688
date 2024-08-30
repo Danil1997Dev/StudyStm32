@@ -1,0 +1,51 @@
+/*
+ * tcp_server_raw.c
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: Danil
+ */
+#include "tcp_server_raw.h"
+
+struct tcp_pcb *ppcb;
+extern ip4_addr_t ipaddr;
+extern ip4_addr_t netmask;
+extern ip4_addr_t gw;
+
+void tcp_server_init(void)
+{
+	ppcb = tcp_new();
+
+	if (ppcb != NULL)
+	{
+		err_t err;
+		err = tcp_bind(ppcb, &ipaddr, 7);
+
+		if (err == ERR_OK)
+		{
+			ppcb = tcp_listen(ppcb);
+
+			tcp_accept(ppcb, tcp_server_accpet);
+
+		}
+		else
+		{
+			memp_free(MEMP_TCP_PCB,ppcb);
+		}
+	}
+}
+
+static err_t tcp_server_accpet(void *arg,struct tcp_pcb *newpcb,err_t err)
+{
+//	UNUSED(arg);
+//	UNUSED(err);
+//
+//	err_t ret_err;
+//	struct tcp_srver_struct *es;
+//
+//	tcp_setprio(newpcb,TCP_PRIO_MIN);
+//
+//	es = (struct tcp_server_struct *) memp_malloc(sizeof(struct tcp_server_struct));
+
+
+}
+

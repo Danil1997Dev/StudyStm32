@@ -1,0 +1,84 @@
+/*
+ * tcp_server_raw.c
+ *
+ *  Created on: Jul 10, 2024
+ *      Author: Danil
+ */
+#include "tcp_server_raw.h"
+
+static err_t tcp_server_accpet(void *arg,struct tcp_pcb *newpcb,err_t err);
+static err_t tcp_server_send(void *arg,struct tcp_pcb *newpcb,err_t err);
+static err_t tcp_server_recive(void *arg,struct tcp_pcb *newpcb,err_t err);
+
+enum tcp_server_state
+{
+	ES_NONE = 0,
+	ES_ACCEPT = 1,
+	ES_RECIVED = 2,
+	ES_CLOSE = 3
+
+};
+
+struct tcp_server_srtuct
+{
+	enum tcp_server_state state;
+	struct tcp_pcb* pcb;
+	struct pbuf* p;
+};
+
+struct tcp_pcb *ppcb;
+extern ip4_addr_t ipaddr;
+extern ip4_addr_t netmask;
+extern ip4_addr_t gw;
+
+void tcp_server_init(void)
+{
+	ppcb = tcp_new();
+
+	if (ppcb != NULL)
+	{
+		err_t err;
+		err = tcp_bind(ppcb, &ipaddr, 7);
+
+		if (err == ERR_OK)
+		{
+			ppcb = tcp_listen(ppcb);
+
+			tcp_accept(ppcb, tcp_server_accpet);
+
+		}
+		else
+		{
+			memp_free(MEMP_TCP_PCB,ppcb);
+		}
+	}
+}
+
+static err_t tcp_server_accpet(void *arg,struct tcp_pcb *newpcb,err_t err)
+{
+	UNUSED(arg);
+	UNUSED(err);
+
+	err_t ret_err;
+	struct tcp_srver_struct *es;
+
+	tcp_setprio(newpcb,TCP_PRIO_MIN);
+
+	es = mem_malloc(sizeof(struct tcp_server_struct*));
+
+	if (es != NULL)
+	{
+		tcp_arg(newpcb,es);
+
+		tcp_recv(newpcb, tcp_server_recive);
+
+
+	}
+
+
+
+
+
+
+}
+
