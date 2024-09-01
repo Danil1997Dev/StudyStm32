@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "tcp_client_raw.h"
+#include "global_def.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,7 +40,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define COM_PORT_USB 1
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -108,7 +108,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   //__HAL_UART_ENABLE_IT(&huart3,UART_IT_RXNE);
   //__HAL_UART_ENABLE_IT(&huart3,UART_IT_TC);
-  HAL_UART_Receive_DMA(&huart3, RX_buff, sizeof(RX_buff));
+  HAL_UART_Receive_DMA(&huart3, RX_buff, 15);
   //tcp_server_init();
   tcp_client_init();
 //  MX_LWIP_Process();
@@ -255,10 +255,11 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
+
 	if (huart == &huart3)
 	{
-		HAL_UART_Receive_DMA(&huart3, RX_buff, sizeof(RX_buff));
-#ifndef COM_PORT_USB
+		HAL_UART_Receive_DMA(&huart3, RX_buff, 2);
+#ifndef COM_PORT
 		byteNum++;
 		wr = 1;
 #endif

@@ -4,4 +4,4 @@
 ../Core/Src/main.c:218:13:MX_DMA_Init	1
 ../Core/Src/main.c:239:13:MX_GPIO_Init	1
 ../Core/Src/main.c:256:6:HAL_UART_RxCpltCallback	2
-../Core/Src/main.c:282:6:Error_Handler	1
+../Core/Src/main.c:283:6:Error_Handler	1
