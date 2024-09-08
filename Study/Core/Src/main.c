@@ -26,6 +26,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "global_def.h"
+#include "ff_gen_drv.h"
+#include "sd_diskio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,11 +46,15 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+SD_HandleTypeDef hsd;
+
 UART_HandleTypeDef huart3;
 DMA_HandleTypeDef hdma_usart3_rx;
 DMA_HandleTypeDef hdma_usart3_tx;
 
 /* USER CODE BEGIN PV */
+
+
 uint8_t TX_buff[] = "Ready\n\r";
 uint8_t RX_buff[30];
 int byteNum;
@@ -56,6 +62,13 @@ extern uint8_t wr;
 extern struct tcp_pcb *cppcb;
 extern char trg;
 char go;
+
+
+FRESULT res_fs;
+FATFS fs;
+FIL file;
+char area[4];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -63,6 +76,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
 static void MX_USART3_UART_Init(void);
+static void MX_SDIO_SD_Init(void);
 /* USER CODE BEGIN PFP */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 /* USER CODE END PFP */
@@ -105,13 +119,37 @@ int main(void)
   MX_USB_DEVICE_Init();
   MX_LWIP_Init();
   MX_FATFS_Init();
+  MX_SDIO_SD_Init();
   /* USER CODE BEGIN 2 */
   //__HAL_UART_ENABLE_IT(&huart3,UART_IT_RXNE);
   //__HAL_UART_ENABLE_IT(&huart3,UART_IT_TC);
   HAL_UART_Receive_DMA(&huart3, RX_buff, 15);
   //tcp_server_init();
-  tcp_client_init();
+  //tcp_client_init();
 //  MX_LWIP_Process();
+  if (FATFS_LinkDriver(&SD_Driver, "") == FR_OK)
+  {
+	  res_fs = f_mount(&fs, (const TCHAR*)"", 1);
+	  if (res_fs == FR_OK)
+	  {
+		  res_fs = f_open(&file, "FIRST.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_OPEN_ALWAYS | FA_READ);
+		  if (res_fs == FR_OK)
+		  {
+			  UINT cw;
+			  res_fs = f_write(&file, "Hello on SD!!!", sizeof("Hello on SD!!!"), (void *)&cw);
+			  if (res_fs == FR_OK)
+			  {
+				  f_close(&file);
+
+			  }
+
+		  }
+	  }
+
+	  //FATFS_UnLinkDriver("");
+
+  }
+  //FATFS_UnLinkDriver(area);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -177,6 +215,34 @@ void SystemClock_Config(void)
   /** Enables the Clock Security System
   */
   HAL_RCC_EnableCSS();
+}
+
+/**
+  * @brief SDIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SDIO_SD_Init(void)
+{
+
+  /* USER CODE BEGIN SDIO_Init 0 */
+
+  /* USER CODE END SDIO_Init 0 */
+
+  /* USER CODE BEGIN SDIO_Init 1 */
+
+  /* USER CODE END SDIO_Init 1 */
+  hsd.Instance = SDIO;
+  hsd.Init.ClockEdge = SDIO_CLOCK_EDGE_RISING;
+  hsd.Init.ClockBypass = SDIO_CLOCK_BYPASS_DISABLE;
+  hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_DISABLE;
+  hsd.Init.BusWide = SDIO_BUS_WIDE_1B;
+  hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_DISABLE;
+  hsd.Init.ClockDiv = 36;
+  /* USER CODE BEGIN SDIO_Init 2 */
+
+  /* USER CODE END SDIO_Init 2 */
+
 }
 
 /**

@@ -1,10 +1,10 @@
-22:55:19 **** Incremental Build of configuration Debug for project Study ****
+23:36:33 **** Incremental Build of configuration Debug for project Study ****
 make -j8 all 
 arm-none-eabi-size  Study.elf 
    text	   data	    bss	    dec	    hex	filename
- 113964	    612	  43820	 158396	  26abc	Study.elf
+ 125956	    592	  45080	 171628	  29e6c	Study.elf
 Finished building: default.size.stdout
  
 
-22:55:19 Build Finished. 0 errors, 0 warnings. (took 934ms)
+23:36:34 Build Finished. 0 errors, 0 warnings. (took 979ms)
 

@@ -9,3 +9,9 @@ huart3
 hdma_usart3_rx
 hdma_usart3_tx
 UserRxBufferFS
+res_fs
+fs
+SD_Driver
+area
+hsd
+file
