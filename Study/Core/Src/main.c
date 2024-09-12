@@ -28,6 +28,7 @@
 #include "global_def.h"
 #include "ff_gen_drv.h"
 #include "sd_diskio.h"
+#include "ff.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -148,6 +149,55 @@ int main(void)
 
 	  //FATFS_UnLinkDriver("");
 
+  }
+
+  //res_fs = f_readdir("", fno)
+
+  DIR dir;
+  FILINFO fio;
+
+  if (f_opendir(&dir, "MyDir") == FR_OK)
+  {
+	 if (f_readdir(&dir, &fio) == FR_OK)
+	 {
+
+		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
+		  {
+			  UINT cw;
+			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
+			  {
+				  f_close(&file);
+			  }
+		   }
+
+	  }
+  }
+  else
+  {
+	  if (f_mkdir("MyDir"))
+	  {
+		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
+		  {
+			  UINT cw;
+			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
+			  {
+				  f_close(&file);
+			  }
+		  }
+
+	  }
+
+  }
+  char readBuff[25];
+  memset(readBuff, '\0', 25);
+  if (f_open(&file, "FIRST.txt", FA_READ) == FR_OK)
+  {
+	  UINT cr;
+	  if (f_read(&file, readBuff, 25, &cr) == FR_OK)
+	  {
+		  f_close(&file);
+
+	  }
   }
   //FATFS_UnLinkDriver(area);
   /* USER CODE END 2 */
