@@ -16,6 +16,8 @@ ip4_addr_t remote_ipaddr;
 ip4_addr_t remote_netmask;
 ip4_addr_t remote_gw;
 
+extern struct dhcp* sdhcp;
+
 //uint8_t REMOTE_IP_ADDRESS[4];
 //uint8_t REMOTE_NETMASK_ADDRESS[4];
 //uint8_t REMOTE_GATEWAY_ADDRESS[4];
@@ -35,6 +37,11 @@ static void tcp_client_err(void *arg, err_t err);
 void tcp_client_init(void)
 {
 	err_t ret_err;
+
+	dhcp_set_struct(&gnetif, sdhcp);
+	dhcp_start(&gnetif);
+
+
 	entry = (struct entry_struct *) mem_malloc(sizeof(struct entry_struct *));
 
 
@@ -55,6 +62,12 @@ void tcp_client_init(void)
 	entry->pstore = (uint8_t *)&REMOTE_PORT;
 
 	input_config_data(entry, (char *)"Enter PORT: ", strlen("Enter PORT: "), 1, byteNum);
+
+
+//	memset(REMOTE_IP_ADDRESS, '\0', 4);
+//	IP4_ADDR(&remote_ipaddr, REMOTE_IP_ADDRESS[0], REMOTE_IP_ADDRESS[1], REMOTE_IP_ADDRESS[2], REMOTE_IP_ADDRESS[3]);
+//
+//	REMOTE_PORT[0] = 0;
 
 	cppcb = tcp_new();
 

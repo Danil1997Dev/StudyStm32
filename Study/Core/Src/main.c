@@ -70,6 +70,9 @@ FATFS fs;
 FIL file;
 char area[4];
 
+extern struct netif gnetif;
+int a = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -128,87 +131,102 @@ int main(void)
   //tcp_server_init();
   //tcp_client_init();
 //  MX_LWIP_Process();
-  if (FATFS_LinkDriver(&SD_Driver, "") == FR_OK)
-  {
-	  res_fs = f_mount(&fs, (const TCHAR*)"", 1);
-	  if (res_fs == FR_OK)
-	  {
-		  res_fs = f_open(&file, "FIRST.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_OPEN_ALWAYS | FA_READ);
-		  if (res_fs == FR_OK)
-		  {
-			  UINT cw;
-			  res_fs = f_write(&file, "Hello on SD!!!", sizeof("Hello on SD!!!"), (void *)&cw);
-			  if (res_fs == FR_OK)
-			  {
-				  f_close(&file);
-
-			  }
-
-		  }
-	  }
-
-	  //FATFS_UnLinkDriver("");
-
-  }
-
-  //res_fs = f_readdir("", fno)
-
-  DIR dir;
-  FILINFO fio;
-
-  if (f_opendir(&dir, "MyDir") == FR_OK)
-  {
-	 if (f_readdir(&dir, &fio) == FR_OK)
-	 {
-
-		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
-		  {
-			  UINT cw;
-			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
-			  {
-				  f_close(&file);
-			  }
-		   }
-
-	  }
-  }
-  else
-  {
-	  if (f_mkdir("MyDir"))
-	  {
-		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
-		  {
-			  UINT cw;
-			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
-			  {
-				  f_close(&file);
-			  }
-		  }
-
-	  }
-
-  }
-  char readBuff[25];
-  memset(readBuff, '\0', 25);
-  if (f_open(&file, "FIRST.txt", FA_READ) == FR_OK)
-  {
-	  UINT cr;
-	  if (f_read(&file, readBuff, 25, &cr) == FR_OK)
-	  {
-		  f_close(&file);
-
-	  }
-  }
+//  if (FATFS_LinkDriver(&SD_Driver, "") == FR_OK)
+//  {
+//	  res_fs = f_mount(&fs, (const TCHAR*)"", 1);
+//	  if (res_fs == FR_OK)
+//	  {
+//		  res_fs = f_open(&file, "FIRST.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_OPEN_ALWAYS | FA_READ);
+//		  if (res_fs == FR_OK)
+//		  {
+//			  UINT cw;
+//			  res_fs = f_write(&file, "Hello on SD!!!", sizeof("Hello on SD!!!"), (void *)&cw);
+//			  if (res_fs == FR_OK)
+//			  {
+//				  f_close(&file);
+//
+//			  }
+//
+//		  }
+//	  }
+//
+//	  //FATFS_UnLinkDriver("");
+//
+//  }
+//
+//  //res_fs = f_readdir("", fno)
+//
+//  DIR dir;
+//  FILINFO fio;
+//
+//  if (f_opendir(&dir, "MyDir") == FR_OK)
+//  {
+//	 if (f_readdir(&dir, &fio) == FR_OK)
+//	 {
+//
+//		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
+//		  {
+//			  UINT cw;
+//			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
+//			  {
+//				  f_close(&file);
+//			  }
+//		   }
+//
+//	  }
+//  }
+//  else
+//  {
+//	  if (f_mkdir("MyDir"))
+//	  {
+//		  if(f_open(&file, "MyDir/MyFile.txt", FA_CREATE_ALWAYS | FA_WRITE | FA_READ | FA_OPEN_ALWAYS) == FR_OK)
+//		  {
+//			  UINT cw;
+//			  if(f_write(&file, "0123456789 ", sizeof("0123456789 "), cw) == FR_OK)
+//			  {
+//				  f_close(&file);
+//			  }
+//		  }
+//
+//	  }
+//
+//  }
+//  char readBuff[25];
+//  memset(readBuff, '\0', 25);
+//  if (f_open(&file, "FIRST.txt", FA_READ) == FR_OK)
+//  {
+//	  UINT cr;
+//	  if (f_read(&file, readBuff, 25, &cr) == FR_OK)
+//	  {
+//		  f_close(&file);
+//
+//	  }
+//  }
   //FATFS_UnLinkDriver(area);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  //tcp_client_init();
+  while (gnetif.ip_addr.addr == 0)
+  {
+	  MX_LWIP_Process();
+  }
+
+  tcp_client_init();
+
   while (1)
   {
 	  //HAL_UART_Transmit(&huart3, TX_buff, sizeof(TX_buff),0xFFFF);
 	  //HAL_Delay(5000);
+
+
 	  MX_LWIP_Process();
+	  if (gnetif.ip_addr.addr != 0)
+	  {
+		  a = 1;
+
+	  }
 
 	  //tcp_write(cppcb, (void *)"Hello from Client\n\r", sizeof("Hello from Client\n\r"), 1);
     /* USER CODE END WHILE */

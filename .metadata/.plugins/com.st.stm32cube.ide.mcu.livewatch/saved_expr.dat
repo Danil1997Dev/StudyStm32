@@ -15,3 +15,6 @@ SD_Driver
 area
 hsd
 file
+sdhcp
+gnetif
+a

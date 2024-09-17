@@ -8,6 +8,6 @@
 #ifndef INC_GLOBAL_DEF_H_
 #define INC_GLOBAL_DEF_H_
 
-//#define COM_PORT 1
+#define COM_PORT 1
 
 #endif /* INC_GLOBAL_DEF_H_ */

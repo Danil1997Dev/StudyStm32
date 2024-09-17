@@ -18,6 +18,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "global_def.h"
+#include "dhcp.h"
 
 enum tcp_client_state
 {
@@ -28,7 +29,7 @@ enum tcp_client_state
 	ES_C_CLOSE = 4
 
 };
-
+extern struct netif gnetif;
 extern uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];
 extern uint8_t RX_buff[30];
 extern int byteNum;
